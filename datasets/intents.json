@@ -99,9 +99,17 @@
          "patterns": ["which condition is suitable for groundnut crop?", "which condition required for groundnut crop?", "condition for groundnut crop","condition suitable for groundnut"],
          "responses": ["it require well distributed rainfall at least 50 cm during growing season", "it grows in abundance of sunshine and relatively warm temperatures."]
         },
-	{"tag": "marketprice",
-         "patterns": ["What is the market price of rice?", "How much is the cost of 10 kgs of wheat?", "What are the prices of sugarcane?"],
-         "responses": ["please visit our application.", "please visit our website for more detail.", "i request you to please visit our website."]
+	{"tag": "ricemarketprice",
+         "patterns": ["What is the market price of rice?"],
+         "responses": ["The market price of rice is between Rs 45-52 per Kg"]
+        },
+	{"tag": "wheatmarketprice",
+         "patterns": ["What is the market price of wheat?"],
+         "responses": ["The market price of wheat is 1961.00 INR/Quintal"]
+        },
+        {"tag": "sugercanemarketprice",
+	 "patterns": ["What is the market price of sugercane?"],
+	 "responses": ["The market price of sugercane is around Rs 285 per quintal"]
         },
 	{"tag": "wassup",
          "patterns": ["Wassup?", "What are you doing?", "What is up with you?", "What are you up to?", "How is it going?"],
